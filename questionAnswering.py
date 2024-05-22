@@ -1,3 +1,4 @@
+import warnings
 import regex as re
 from pathlib import Path
 import spacy
@@ -7,11 +8,10 @@ import numpy as np
 import coreferee
 from sentence_transformers import SentenceTransformer, util
 
-
 def resolve_coreference(text):
     doc = nlp(text)
     doc_list = list(doc)
-    doc._.coref_chains.print()
+    # doc._.coref_chains.print()
     resolving_indecies = []
     for _,item in enumerate(doc._.coref_chains):
         resolving_indecies.extend(item)
@@ -99,7 +99,7 @@ def extract_facts(sentence):
     objects = extract_objects(sentence)
     times = extract_time(sentence)
     locations = extract_location(sentence)
-    print(subjects, objects)
+    # print(subjects, objects)
     
     facts = pd.DataFrame(columns=["Subject", "Relation", "Objects", "States", "Times", "Locations"])
     
@@ -111,6 +111,7 @@ def extract_facts(sentence):
         else:
             new_row = pd.DataFrame([{"Subject": currentSubject, "Relation": verb, "Objects": [], "States": [], "Times": [], "Locations": []}])
             facts = pd.concat([facts, new_row], ignore_index=True)
+            
     for obj in objects:
         verb = obj[1].lemma_
         currentObj = obj[0]
@@ -184,25 +185,41 @@ def similarity(factRow, questionRow, column):
 
 
 def cost_function(factsDf, questionFact, excludeColumns=[]):
-    cost = 0
+    score = 0
     maxFactIdx = 0
     columnNames = ["Subject","Relation", "Objects", "States", "Times", "Locations"]
     for column in excludeColumns:
         columnNames.remove(column)
     for factIdx, factRow in factsDf.iterrows():
-        currCost = 0
+        currScore = 0
         for _, questionRow in questionFact.iterrows():
             for column in columnNames:
-                currCost += similarity(factRow, questionRow, column)
-        if currCost > cost:
-            cost = currCost
+                currScore += similarity(factRow, questionRow, column)
+        if currScore > score:
+            score = currScore
             maxFactIdx = factIdx
-    return maxFactIdx, cost.item()/len(columnNames)
+    return maxFactIdx, score.item()/len(columnNames)
+
+def process_question_context(question, doc):
+    question_nlp = nlp(question)
+    question_type = question_nlp[0].text.lower()
+    
+    resolved_doc = preprocess_context(doc)
+    cleaned_doc = nlp(resolved_doc)
+    sentences = [one_sentence.text.strip() for one_sentence in cleaned_doc.sents]
+    
+    questionDF = extract_facts(question)
+    factsDF = join_sentences_facts(sentences)
+    
+    newFactsDF = change_subject_relation(factsDF)
+    newQuestionDF = change_subject_relation(questionDF)
+    
+    return newFactsDF, newQuestionDF, question_type
 
 def get_answer(factsDF, questionDF, question_type):
     correctIdx, _ = cost_function(factsDF, questionDF, excludeColumns=[excludesPerQuestionType[question_type]])
-    WhenAnswer = factsDF.loc[correctIdx, excludesPerQuestionType[question_type]]
-    return " ".join(WhenAnswer)
+    answer = factsDF.loc[correctIdx, excludesPerQuestionType[question_type]]
+    return " ".join(answer)
     
 
 if __name__ == "__main__":
@@ -228,19 +245,8 @@ if __name__ == "__main__":
     With his country, he won the 2021 Copa América and the 2022 FIFA World Cup. A prolific goalscorer and creative playmaker, Messi holds the records for most goals, hat-tricks, and assists in La Liga. He has the most international goals by a South American male. Messi has scored over 800 senior career goals for club and country, and the most goals for a single club.
     """
     question = "how did messi play?"
-    question_nlp = nlp(question)
-    question_type = question_nlp[0].text.lower()
-    
-    resolved_doc = preprocess_context(doc)
-    cleaned_doc = nlp(resolved_doc)
-    sentences = [one_sentence.text.strip() for one_sentence in cleaned_doc.sents]
-    
-    questionDF = extract_facts(question)
-    factsDF = join_sentences_facts(sentences)
-    
-    newFactsDF = change_subject_relation(factsDF)
-    newQuestionDF = change_subject_relation(questionDF)
-    answer = get_answer(newFactsDF, newQuestionDF, question_type)
+    factsDF, questionDF, question_type = process_question_context(question, doc)
+    answer = get_answer(factsDF, questionDF, question_type)
     
     print("========================================================")
     print("Question: ", question)
