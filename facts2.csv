@@ -1,1 +1,9 @@
 ,Subject,Relation,Objects,States,Times,Locations
+0,['Unknown'],['measure'],['The length of the Rhine'],['in Rhine-kilometers (Rheinkilometer )'],[],['the Rhine']
+1,['Unknown'],['shorten'],['The river length'],"[""from the river's natural course"", 'due to number of canalisation projects completed in the 19th and 20th century.[note 7']",[],[]
+2,['canalisation projects'],['complete'],[],['in the 19th and 20th century.[note 7'],[],[]
+3,['scale'],['introduce'],[],['in 1939'],['1939'],[]
+4,['the Alpine Rhine'],['be'],"['more difficult', 'to measure objectively  ']",[],[],"['the Rhine', 'the Alpine Rhine']"
+5,['the Dutch Rijkswaterstaat'],['cite'],['it'],"['as 1,232 kilometres ( 766 miles )', 'in 2010.[note 1']",['2010'],[]
+6,['the Rhine'],['measure'],[],[],[],[]
+7,['which'],['run'],[],"['from the Old Rhine Bridge at Constance ( 0 km', 'to Hoek van Holland ( 1036.20 km )']",['1036'],[]
