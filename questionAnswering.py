@@ -1,253 +1,114 @@
-import warnings
 import regex as re
 from pathlib import Path
 import spacy
-from spacy import displacy
-import pandas as pd
 import numpy as np
 import coreferee
 from sentence_transformers import SentenceTransformer, util
+from nltk.translate.bleu_score import SmoothingFunction
+import knowledgeGraph as KG
 
-def resolve_coreference(text):
-    doc = nlp(text)
-    doc_list = list(doc)
-    # doc._.coref_chains.print()
-    resolving_indecies = []
-    for _,item in enumerate(doc._.coref_chains):
-        resolving_indecies.extend(item)
+class QuestionAnswering:
+    def __init__(self, model, excludesPerQuestionType):
+        self.model = model
+        self.excludesPerQuestionType = excludesPerQuestionType
+
+    def change_subject_relation(self, factsDF, isQuestion = True):
+        if not isQuestion:
+            factsDF = factsDF[~((factsDF["Subject"] == "Unknown") & (factsDF["Objects"].apply(len) == 0) & (factsDF["States"].apply(len) == 0) & (factsDF["Times"].apply(len) == 0) & (factsDF["Locations"].apply(len) == 0))]
+            factsDF = factsDF.reset_index(drop=True)
+            
+        for index, row in factsDF.iterrows():
+            factsDF.loc[index, "Subject"] = [row['Subject']]
+            factsDF.loc[index, "Relation"] = [row['Relation']]
+        return factsDF
+
+    def similarity(self, factRow, questionRow, column):
+        """
+        This function calculates the cosine similarity between the embeddings of a fact and a question.
+
+        Parameters:
+        factRow (pandas.Series): A row from the facts DataFrame.
+        questionRow (pandas.Series): A row from the questions DataFrame.
+        column (str): The name of the column to compare in the factRow and questionRow.
+
+        Returns:
+        float: The cosine similarity between the embeddings of the fact and the question.
+
+        The function works as follows:
+        1. If the specified column in either the factRow or questionRow is empty or contains only "Unknown", it returns 0.
+        2. It joins the items in the specified column of the factRow and questionRow into strings.
+        3. It uses a pre-trained model to encode these strings into embeddings.
+        4. It calculates the cosine similarity between these embeddings using the util.cos_sim function.
+        5. Finally, it returns the cosine similarity.
+        """
+        if len(factRow[column]) == 0 or len(questionRow[column]) == 0 or factRow[column] == ["Unknown"] or questionRow[column] == ["Unknown"]:
+            return 0
+        columnString = " ".join(factRow[column])
+        questionString = " ".join(questionRow[column])
+        embeddingFact = self.model.encode(columnString)
+        embeddingQuestion = self.model.encode(questionString)
+        return util.cos_sim(embeddingFact, embeddingQuestion)
+
+
+    def cost_function(self, factsDf, questionFact, excludeColumns=[]):
+        """
+        This function calculates the cost of each fact in the facts DataFrame with respect to a question fact, and returns the index and cost of the fact with the highest cost.
+
+        Parameters:
+        factsDf (pandas.DataFrame): The DataFrame containing the facts.
+        questionFact (pandas.DataFrame): The DataFrame containing the question fact.
+        excludeColumns (list, optional): A list of column names to exclude from the cost calculation. Defaults to an empty list.
+
+        Returns:
+        tuple: A tuple containing the index of the fact with the highest cost and the cost itself.
+
+        The function works as follows:
+        1. It initializes the cost and maxFactIdx variables to 0.
+        2. It creates a list of column names to consider in the cost calculation, excluding any columns specified in the excludeColumns parameter.
+        3. It iterates over each fact in the facts DataFrame.
+        4. For each fact, it calculates the cost by summing the cosine similarities between the fact and the question fact for each column.
+        5. If the calculated cost is greater than the current maximum cost, it updates the maximum cost and the index of the fact with the maximum cost.
+        6. Finally, it returns the index of the fact with the maximum cost and the cost itself.
+        """
+        cost = 0
+        maxFactIdx = 0
+        columnNames = ["Subject","Relation", "Objects", "States", "Times", "Locations"]
+        for column in excludeColumns:
+            columnNames.remove(column)
+        for factIdx, factRow in factsDf.iterrows():
+            currCost = 0
+            for _, questionRow in questionFact.iterrows():
+                if len(factRow[excludeColumns[0]]) == 0:
+                    continue
+                for column in columnNames:
+                    currCost += self.similarity(factRow, questionRow, column)
+            if currCost > cost:
+                cost = currCost
+                maxFactIdx = factIdx
+        return maxFactIdx, cost
         
-    for word in resolving_indecies:
-        new_word = ""
-        for index in word:
-            if doc[index]._.coref_chains.resolve(doc[index]) is not None:
-                temp = []
-                for item in doc._.coref_chains.resolve(doc[index]):
-                    temp.append(str(item))
-                new_word = ", ".join(temp)
-            
-                doc_list[index] = new_word
+    def get_answer(self, factsDF, questionDF, questionType):
+        """
+        This function determines the answer to a question based on the facts extracted from a document.
 
-    final_doc = []
-    for item in doc_list:
-        final_doc.append(str(item))
-    return " ".join(final_doc)
+        Parameters:
+        factsDF (pandas.DataFrame): The DataFrame containing the facts extracted from the document.
+        questionDF (pandas.DataFrame): The DataFrame containing the facts extracted from the question.
+        questionType (str): The type of the question (e.g., "who", "what", "when", etc.).
 
+        Returns:
+        str: The answer to the question.
 
-def extract_subjects(sentence):
-    subjects = []
-    for token in sentence:
-        if token.dep_ in ("nsubj","csubj", "nsubjpass"):
-            if token.dep_ == "nsubjpass":
-                verb = token.head
-                for child in verb.children:
-                    if child.dep_ == "agent":
-                        subject = [str(t) for t in list(child.children)[0].subtree]
-                        subject = " ".join(subject)
-                        break
-                    else:
-                        subject = "Unknown"
-                subjects.append((subject, verb))
-            else:                       
-                subtree_tokens = [str(t) for t in token.subtree]
-                verb = token.head
-                subjects.append((" ".join(subtree_tokens), verb))
-    return subjects
-
-def extract_objects(sentence):
-    objects = []
-    for token in sentence:
-        if token.dep_ in ("dobj", "dative", "attr", "oprd", "acomp","ccomp", "xcomp", "nsubjpass"):
-            subtree_tokens = [str(t) for t in token.subtree]
-            verb = token.head
-            objects.append((" ".join(subtree_tokens), verb))
-    return objects
-
-def extract_state(sentence):
-    states = []
-    for token in sentence:
-        if token.pos_ =="VERB" or token.pos_ == "AUX":
-            for child in token.children:
-                if child.dep_ == "prep":
-                    subtree_tokens = [str(t) for t in child.subtree]
-                    states.append(((" ".join(subtree_tokens), token)))
-    return states
-
-def extract_time(sentence):
-    times = {}
-    for token in sentence:
-        if token.pos_ == "VERB" or token.pos_ == "AUX":
-            for child in token.subtree:
-                if child.ent_type_ == "DATE" or child.ent_type_ == "TIME":
-                    times[child.text] = token
-    return list(times.items())
-
-def extract_location(sentence):
-    locations = {}
-    for token in sentence:
-        if token.pos_ == "VERB" or token.pos_ == "AUX":
-            for child in token.subtree:
-                if child.ent_type_ in ("GPE", "LOC", "FAC"):
-                    locations[child.text] = token
-    return list(locations.items())
-                    
-    
-
-def extract_facts(sentence):
-    sentence = nlp(sentence)
-    states = extract_state(sentence)
-    subjects = extract_subjects(sentence)
-    objects = extract_objects(sentence)
-    times = extract_time(sentence)
-    locations = extract_location(sentence)
-    # print(subjects, objects)
-    
-    facts = pd.DataFrame(columns=["Subject", "Relation", "Objects", "States", "Times", "Locations"])
-    
-    for subject in subjects:
-        verb = subject[1].lemma_
-        currentSubject = subject[0]
-        if verb in facts["Relation"].values:
-            facts.loc[facts["Relation"] == verb, "Subject"] = currentSubject
-        else:
-            new_row = pd.DataFrame([{"Subject": currentSubject, "Relation": verb, "Objects": [], "States": [], "Times": [], "Locations": []}])
-            facts = pd.concat([facts, new_row], ignore_index=True)
-            
-    for obj in objects:
-        verb = obj[1].lemma_
-        currentObj = obj[0]
-        if verb in facts["Relation"].values:
-            oldObjects = list(facts.loc[facts["Relation"] == verb, "Objects"].values[0])
-            oldObjects.append(currentObj)
-            facts.loc[facts["Relation"] == verb, "Objects"] = [oldObjects] 
-            
-
-    for state in states:
-        verb = state[1].lemma_
-        currentState = state[0]
-        if verb in facts["Relation"].values:
-            oldStates = list(facts.loc[facts["Relation"] == verb, "States"].values[0])
-            oldStates.append(currentState)
-            facts.loc[facts["Relation"] == verb, "States"] = [oldStates]
-            
-    for time in times:
-        verb = time[1].lemma_
-        currentTime = time[0]
-        if verb in facts["Relation"].values:
-            oldTimes = list(facts.loc[facts["Relation"] == verb, "Times"].values[0])
-            oldTimes.append(currentTime)
-            facts.loc[facts["Relation"] == verb, "Times"] = [oldTimes]
-            
-    for location in locations:
-        verb = location[1].lemma_
-        currentLocation = location[0]
-        if verb in facts["Relation"].values:
-            oldLocations = list(facts.loc[facts["Relation"] == verb, "Locations"].values[0])
-            oldLocations.append(currentLocation)
-            facts.loc[facts["Relation"] == verb, "Locations"] = [oldLocations]
-            
-    return facts
-        
-def preprocess_context(doc):
-    text = doc.strip()
-    text.replace(".", ",")
-    resolved_text = resolve_coreference(text)
-    resolved_text = resolved_text.strip()
-    resolved_text = resolved_text.replace("  ", " ").replace(" ,", ",").replace(" .", ".").replace("\n", "")
-    return resolved_text
-
-def join_sentences_facts(sentences):
-    all_facts = pd.DataFrame(columns=["Subject", "Relation", "Objects", "States", "Times", "Locations"])
-    for sentence in sentences:
-        facts = extract_facts(sentence)
-        all_facts = pd.concat([all_facts, facts])
-    all_facts = all_facts.groupby(["Subject", "Relation"], as_index=False).agg({
-        "Objects": lambda x: [item for sublist in x for item in sublist],
-        "States": lambda x: [item for sublist in x for item in sublist],
-        "Times": lambda x: [item for sublist in x for item in sublist],
-        "Locations": lambda x: [item for sublist in x for item in sublist]
-    })
-    return all_facts
-
-def change_subject_relation(factsDF):
-    for index, row in factsDF.iterrows():
-        factsDF.loc[index, "Subject"] = [row['Subject']]
-        factsDF.loc[index, "Relation"] = [row['Relation']]
-    return factsDF
-
-def similarity(factRow, questionRow, column):
-    if len(factRow[column]) == 0 or len(questionRow[column]) == 0:
-        return 0
-    columnString = " ".join(factRow[column])
-    questionString = " ".join(questionRow[column])
-    embeddingFact = model.encode(columnString)
-    embeddingQuestion = model.encode(questionString)
-    return util.cos_sim(embeddingFact, embeddingQuestion)
-
-
-def cost_function(factsDf, questionFact, excludeColumns=[]):
-    score = 0
-    maxFactIdx = 0
-    columnNames = ["Subject","Relation", "Objects", "States", "Times", "Locations"]
-    for column in excludeColumns:
-        columnNames.remove(column)
-    for factIdx, factRow in factsDf.iterrows():
-        currScore = 0
-        for _, questionRow in questionFact.iterrows():
-            for column in columnNames:
-                currScore += similarity(factRow, questionRow, column)
-        if currScore > score:
-            score = currScore
-            maxFactIdx = factIdx
-    return maxFactIdx, score.item()/len(columnNames)
-
-def process_question_context(question, doc):
-    question_nlp = nlp(question)
-    question_type = question_nlp[0].text.lower()
-    
-    resolved_doc = preprocess_context(doc)
-    cleaned_doc = nlp(resolved_doc)
-    sentences = [one_sentence.text.strip() for one_sentence in cleaned_doc.sents]
-    
-    questionDF = extract_facts(question)
-    factsDF = join_sentences_facts(sentences)
-    
-    newFactsDF = change_subject_relation(factsDF)
-    newQuestionDF = change_subject_relation(questionDF)
-    
-    return newFactsDF, newQuestionDF, question_type
-
-def get_answer(factsDF, questionDF, question_type):
-    correctIdx, _ = cost_function(factsDF, questionDF, excludeColumns=[excludesPerQuestionType[question_type]])
-    answer = factsDF.loc[correctIdx, excludesPerQuestionType[question_type]]
-    return " ".join(answer)
-    
-
-if __name__ == "__main__":
-    nlp = spacy.load('en_core_web_md')
-    nlp.add_pipe("merge_entities")
-    nlp.add_pipe("merge_noun_chunks")
-    nlp.add_pipe('coreferee')
-    model = SentenceTransformer("all-MiniLM-L6-v2")
-    
-    excludesPerQuestionType = {
-        "when": "Times",
-        "where": "Locations",
-        "who": "Subject",
-        "what": "Objects",
-        "how": "States"
-    }   
-    
-    doc = """
-    Lionel Andrés "Leo" Messi was born in 24 June 1987 is an Argentine professional footballer plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team.
-    He played in Barcelona in 2010.
-    Widely regarded as one of the greatest players of all time, Messi has won a record eight Ballon d'Or awards, a record six European Golden Shoes, and was named the world's best player for a record eight times by FIFA.
-    Until 2021, he had spent his entire professional career with Barcelona, where he won a club-record 34 trophies, including ten La Liga titles, seven Copa del Rey titles, and the UEFA Champions League four times.
-    With his country, he won the 2021 Copa América and the 2022 FIFA World Cup. A prolific goalscorer and creative playmaker, Messi holds the records for most goals, hat-tricks, and assists in La Liga. He has the most international goals by a South American male. Messi has scored over 800 senior career goals for club and country, and the most goals for a single club.
-    """
-    question = "how did messi play?"
-    factsDF, questionDF, question_type = process_question_context(question, doc)
-    answer = get_answer(factsDF, questionDF, question_type)
-    
-    print("========================================================")
-    print("Question: ", question)
-    print("Answer: ", answer)
+        The function works as follows:
+        1. It calculates the cost of each fact in the facts DataFrame with respect to the question fact, excluding the column corresponding to the question type.
+        2. It determines the fact with the highest cost.
+        3. It retrieves the answer from the column of the fact that corresponds to the question type.
+        4. If the answer is empty, it retrieves the answer from the "States" column of the fact.
+        5. It joins the items in the answer into a string.
+        6. Finally, it returns the answer.
+        """
+        correctIdx, _ = self.cost_function(factsDF, questionDF, excludeColumns=[self.excludesPerQuestionType[questionType]])
+        answer = factsDF.loc[correctIdx, self.excludesPerQuestionType[questionType]]
+        if answer == []:
+            answer = factsDF.loc[correctIdx, "States"]    
+        return " ".join(answer)
