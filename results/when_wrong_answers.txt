@@ -974,1271 +974,1003 @@ Question: When did French learn about Braddock's plans?
 Answer: plans leaked to France well before Braddock's departure
 Our Answer: several months
 
-Question: Where did Super Bowl 50 take place?
-Answer: Santa Clara, California
-Our Answer: the San Francisco Bay Area Santa Clara California
+Question: When was Levi's Stadium awarded the right to host Super Bowl 50?
+Answer: May 21, 2013
+Our Answer: 2003
 
-Question: Where was Super Bowl 50 held?
-Answer: Santa Clara, California.
-Our Answer: the San Francisco Bay Area Santa Clara California
-
-Question: Where did the spring meetings of the NFL owners take place?
-Answer: Boston
-Our Answer: San Diego
-
-Question: Where was the meeting held when the NFL owners voted on the location for Super Bowl 50?
-Answer: Boston
-Our Answer: the San Francisco Bay Area
-
-Question: Where did the Panthers practice at for Super Bowl 50?
-Answer: San Jose State practice facility
-Our Answer: at Stanford University
-
-Question: Where did the Panthers practice for the Super Bowl?
-Answer: San Jose State practice facility
-Our Answer: at Stanford University
-
-Question: Where was the practice place the Panthers used for the Super Bowl?
-Answer: San Jose
-Our Answer: at Stanford University
-
-Question: Where hotel did the Panthers stay at?
-Answer: San Jose Marriott.
-Our Answer: at Stanford University
-
-Question: Where did the Broncos stay at for Super Bowl 50?
-Answer: Santa Clara Marriott.
-Our Answer: at Stanford University
-
-Question: Where was the NFL Experience held for the 2015 season?
-Answer: Moscone Center
-Our Answer: Justin Herman Plaza The Embarcadero
-
-Question: Where was the new media day event for Super Bowl 50 held?
-Answer: SAP Center in San Jose.
-Our Answer: the Golden Gate Bridge
-
-Question: Where was Tracy Wolfson announcing from during the Super Bowl 50 game?
-Answer: sidelines
-Our Answer: the United States
-
-Question: Where was Evan Washburn located while announcing during the game?
-Answer: sidelines
-Our Answer: the United States
-
-Question: Where was the ESPN Deportes Spanish version of Super Bowl 50 available?
-Answer: WatchESPN.
-Our Answer: via CBSSports.com
-
-Question: Where was the ball recovered?
-Answer: 50-yard line.
-Our Answer: Carolina
-
-Question: Where is the Congress Hall located?
-Answer: in the Palace of Culture and Science
-Our Answer: the Palace of Culture and Science Warsaw
-
-Question: Where can a tribute to the fall of Warsaw be found?
-Answer: Warsaw Uprising Museum
-Our Answer: Warsaw Poland
-
-Question: Where in Warsaw are patriotic and political objects connected with Poland's struggles for Independence found?
-Answer: Museum of Independence
-Our Answer: Warsaw Poland
-
-Question: Where is Polonia's home venue located?
-Answer: at Konwiktorska Street
-Our Answer: Polonia Warsaw
-
-Question: Where did two of Triton's daughters set out on a journey through?
-Answer: depths of the oceans and seas
-Our Answer: Denmark
-
-Question: Where is the lowest point of Warsaw located?
-Answer: at the right bank of the Vistula
-Our Answer: the Vistula Warsaw
-
-Question: Where can Aeolian sand with a number of dunes be found?
-Answer: plain Vistula terraces
-Our Answer: Warsaw
-
-Question: Where is a palm house with subtropic plants from all over the world on display?
-Answer: New Orangery
-Our Answer: the Botanic Garden
-
-Question: Where was the first horse racetrack located?
-Answer: Pole Mokotowskie
-Our Answer: the northern Mokotów Praga
-
-Question: Where does Warsaw rank in terms of population in the EU?
-Answer: 9th
-Our Answer: Warsaw the Vistula River east-central Poland the Baltic Sea the Carpathian Mountains
-
-Question: Where was the Archangel Michael shrine located?
-Answer: Monte Gargano
-Our Answer: the Normans the Mezzogiorno
-
-Question: Where was William Iron Arm's castle located?
-Answer: Squillace
-Our Answer: the Normans Sicily Malta the Saracens a Hauteville
-
-Question: Where did the Normans and Byzantines sign the peace treaty?
-Answer: Deabolis
-Our Answer: the Normans Petrela Jericho
-
-Question: Where was Dyrrachium located?
-Answer: the Adriatic
-Our Answer: Dyrrachium
-
-Question: Where did Harold II die?
-Answer: Battle of Hastings
-Our Answer: Normandy England
-
-Question: Where was Ralph earl of?
-Answer: Hereford
-Our Answer: the Normans
-
-Question: Where are Jersey and Guernsey
-Answer: Channel Islands
-Our Answer: Normandy
-
-Question: Where was his unfinished project called?
-Answer: Wardenclyffe Tower project
-Our Answer: New York Colorado Springs
-
-Question: Where did Tesla live for much of his life?
-Answer: New York hotels
+Question: When did Lev's Stadium open?
+Answer: 2014
 Our Answer: No_Answer_Found
 
-Question: Where did Tesla believe his talents came from?
-Answer: his mother's genetics and influence
-Our Answer: western Serbia
+Question: When was San Francisco voted to be the location for Super Bowl 50?
+Answer: May 21, 2013
+Our Answer: 2003
 
-Question: Where did the family move in 1862?
-Answer: Gospić, Austrian Empire
-Our Answer: Smiljan
-
-Question: Where was Austrian Polytechnic located?
-Answer: Graz, Austria
-Our Answer: the US
-
-Question: Where did Tesla teach in Gospic?
-Answer: Higher Real Gymnasium
-Our Answer: On 17 April 1879 at the age of 60 after contracting an unspecified illness
-
-Question: Where was Tesla hoping to attend classes in Prague?
-Answer: Charles-Ferdinand University
-Our Answer: Prague
-
-Question: Where did Tesla work in Budapest?
-Answer: a telegraph company
-Our Answer: Budapest
-
-Question: Where did Tesla begin working in 1884?
-Answer: Edison Machine Works
-Our Answer: France
-
-Question: Where did Tesla begin a new job at in 1882?
-Answer: Continental Edison Company
-Our Answer: France
-
-Question: Where was Edison Machine Works located?
-Answer: Manhattan's lower east side
-Our Answer: France
-
-Question: Where would profits go in this new company?
-Answer: ⅓ to Tesla, ⅓ to Peck and Brown, and ⅓ to fund development
-Our Answer: 89 Liberty Street Manhattan
-
-Question: Where was Tesla's new lab?
-Answer: 89 Liberty Street in Manhattan
-Our Answer: 89 Liberty Street Manhattan
-
-Question: where do plasma waves occur? 
-Answer: force-free magnetic fields
-Our Answer: In his many notes on the early investigation of this phenomenon to various causes
-
-Question: Where are longitudinal waves found?
-Answer: force-free magnetic fields
-Our Answer: In his many notes on the early investigation of this phenomenon to various causes
-
-Question: Where was the boat demonstration given?
-Answer: Madison Square Garden
-Our Answer: Chicago
-
-Question: Where was Wardenclyffe located?
-Answer: near Shoreham, Long Island
-Our Answer: Shoreham Long Island
-
-Question: Where did he work on the oscillators?
-Answer: Houston Street lab
+Question: When did Levi's Stadium open?
+Answer: 2014
 Our Answer: No_Answer_Found
 
-Question: Where did Tesla look for investors prior to WWI?
-Answer: overseas
-Our Answer: the Wardenclyffe Tower
+Question: When was Levi's Stadium picked for Super bowl 50?
+Answer: May 21, 2013
+Our Answer: 1985
 
-Question: Where can the Treatise be found?
-Answer: Nikola Tesla Museum archive
-Our Answer: the United Kingdom the Soviet Union Yugoslavia
-
-Question: Where did he claim the blueprint was stored?
-Answer: in his mind.
-Our Answer: During the period in which the negotiations were being conducted
-
-Question: Where did Tesla go to feed the pigeons daily?
-Answer: the park
-Our Answer: into his hotel room
-
-Question: Where can a lot Tesla's writings be found?
-Answer: the web
+Question: When did Levi's Stadium open?
+Answer: 2014.
 Our Answer: No_Answer_Found
 
-Question: Where can the complexity classes RP, BPP, PP, BQP, MA, and PH be located?
-Answer: between P and PSPACE
-Our Answer: MA
+Question: When did the Packers arrive at a record of 13-0?
+Answer: 2011
+Our Answer: 1978
 
-Question: Where do most teachers get their credentials from?
-Answer: university or college.
-Our Answer: like other professionals
+Question: When did the NFL start their 16 game seasons?
+Answer: 1978
+Our Answer: the season 14–0
 
-Question: Where is a teacher most likely to be teaching at?
-Answer: school
-Our Answer: like other professionals
+Question: When was Newton the first selection in the NFL Draft?
+Answer: 2011
+Our Answer: 13 years 48 days 39 26
 
-Question: Where might a teacher teach that is not inside a building?
-Answer: outdoors
-Our Answer: as a tutor
+Question: When will Roman numerals be used again to denote the Super Bowl number?
+Answer: Super Bowl LI.
+Our Answer: June 4, 2014
 
-Question: Where is another indoor location for a teacher other than a school?
-Answer: academy
-Our Answer: as a tutor
+Question: When is the game's media day usually held?
+Answer: the Tuesday afternoon prior to the game
+Our Answer: February 1, 2016
 
-Question: Where is corporal punishment no longer practiced?
-Answer: Most Western countries
-Our Answer: the United States
+Question: When is the last time a fumble return touchdown happened in a Super Bowl?
+Answer: Super Bowl XXVIII
+Our Answer: the end of the 1993 season
 
-Question: Where is corporal punishment usually performed these days?
-Answer: privately in the principal's office
-Our Answer: the South
+Question: When is the Wianki festival held?
+Answer: Midsummer’s Night
+Our Answer: today
 
-Question: Where can you find more information on a country's practices?
-Answer: see School corporal punishment.
+Question: When did Warsaw become the capital of the Kingdom of Poland?
+Answer: 1596
+Our Answer: 1806
+
+Question: When was the Masovian Duchy reincorporated into the Polish Crown?
+Answer: 1526
+Our Answer: 1300
+
+Question: When did Warsaw become the center of the Congress Poland?
+Answer: 1815
+Our Answer: 1796
+
+Question: When was the Royal University of Warsaw established?
+Answer: 1816
+Our Answer: 1796
+
+Question: When was Warsaw completely razed to the ground by bombing raids?
+Answer: During the Second World War
+Our Answer: the 19th century the 1950s and 1960s
+
+Question: When did Warsaw start to rebuild?
+Answer: After liberation
+Our Answer: the 19th century the 1950s and 1960s
+
+Question: When did building activity occur on St. Kazimierz Church?
+Answer: 1688–1692
+Our Answer: the later decades of the 17th century
+
+Question: When was the Palace on the Water rebuilt?
+Answer: 1775–1795
+Our Answer: 1775 1782 1761 1777–1782
+
+Question: When did the Warsaw area enlargement take place?
+Answer: 1951
+Our Answer: the first years
+
+Question: When did Menich serve as President?
+Answer: 1695–1696
+Our Answer: 1990
+
+Question: When was Warsaw's first stock exchange established?
+Answer: 1817
+Our Answer: Today 31 August 2009
+
+Question: When was Warsaw's stock exchange brought back to life?
+Answer: April 1991
+Our Answer: Today 31 August 2009
+
+Question: When was the Duchy of Normandy founded?
+Answer: 911
+Our Answer: the 10th century
+
+Question: When did the attack occur in which the Normans impressed Prince Guaimar III occur?
+Answer: 999
+Our Answer: 1017
+
+Question: When did Robert Crispin go up against the Turks?
+Answer: 1060s
+Our Answer: the 1050s
+
+Question: When did Dyrrachium fall to the Normans?
+Answer: 1082
+Our Answer: 1085
+
+Question: When did the Venetians take total control of Cyprus?
+Answer: 1489
+Our Answer: 1192
+
+Question: When did Tesla's father die?
+Answer: 1879
+Our Answer: his second year
+
+Question: When was Tesla returned to Gospic?
+Answer: March 1879
+Our Answer: that year
+
+Question: When did Tesla patent the motor?
+Answer: 1888
+Our Answer: 1887
+
+Question: When did the deal between Peck, Brown and Westinghouse take place?
+Answer: 1888
+Our Answer: one year
+
+Question: When were x-rays discovered? 
+Answer: December 1895
+Our Answer: 1894
+
+Question: When did Tesla attain his electrical transmitter patent?
+Answer: 1900
+Our Answer: 1901
+
+Question: When was Marconi's radio demonstration?
+Answer: 1901
+Our Answer: the beginning of years
+
+Question: When did Marconi transmit similar signals to those Tesla received?
+Answer: July 1899
+Our Answer: 8 December 1899 1900 the new century
+
+Question: When was his lab destroyed?
+Answer: 1904
+Our Answer: 7 January 1900
+
+Question: When did he first get out of bed following the accident?
+Answer: early 1938
+Our Answer: the fall of 1937 midnight one night
+
+Question: When did the accident occur?
+Answer: the fall of 1937
+Our Answer: some months
+
+Question: When are the ashes now?
+Answer: Nikola Tesla Museum
+Our Answer: 1952
+
+Question: When did Tesla admit to a reporter that maybe he'd sacrificed too much by not having a relationship?
+Answer: toward the end of his life
 Our Answer: No_Answer_Found
 
-Question: Where does the pupil remain while in detention
-Answer: in schools
-Our Answer: the United States the UK Ireland Singapore
-
-Question: Where was the 2000 study conducted?
-Answer: UK
+Question: When extensive time is required to sort integers, this represents what case complexity?
+Answer: worst-case
 Our Answer: No_Answer_Found
 
-Question: Where are nearly all teachers taught?
-Answer: a university or college
-Our Answer: the US
-
-Question: Where does a private school get funding to operate?
-Answer: the private sector, businesses and sponsors
-Our Answer: Canada
-
-Question: Where are teachers recruited from?
-Answer: Lehramtstudien (Teaching Education Studies)
-Our Answer: Germany
-
-Question: Where was Luther born?
-Answer: Eisleben, Saxony
-Our Answer: Eisleben Saxony the Holy Roman Empire
-
-Question: Where did Martin Luther go to school?
-Answer: University of Erfurt
-Our Answer: as " a day of rote learning
-
-Question: Where did Luther spend his career?
-Answer: University of Wittenberg
-Our Answer: On 19 October 1512
-
-Question: Where was Melanchthon at the time?
-Answer: not in Wittenberg
-Our Answer: in Wittenberg at the time
-
-Question: Where did Luther explain his idea of justification?
-Answer: Smalcald Articles
-Our Answer: Paradise
-
-Question: Where does Luther place Salvation?
-Answer: with the Father
-Our Answer: not as a doctrine to be learned
-
-Question: Where was the language Luther used in his translations spoken?
-Answer: Saxon chancellery
+Question: When could a teacher act in the role of a parent?
+Answer: While a child was in school
 Our Answer: No_Answer_Found
 
-Question: Where is the Apostles located?
-Answer: Small Catechism
+Question: When was vetting introduced?
+Answer: 2006
+Our Answer: to teaching also to non-teaching posts and those who refuse vetting
+
+Question: When were attacks on teachers the highest?
+Answer: between 2005 and 2010
+Our Answer: previous years
+
+Question: When did Martin Luther die?
+Answer: 18 February 1546
+Our Answer: 1517
+
+Question: When was Martin Luther born?
+Answer: 10 November 1483
+Our Answer: 1497
+
+Question: When was Luther's 95 Theses translated into German?
+Answer: January 1518
+Our Answer: two weeks two months
+
+Question: When were some of Luther's best-known works published?
+Answer: 1520
+Our Answer: 1519
+
+Question: When did Luther publish On the Bondage of the Will?
+Answer: 1525
+Our Answer: 1524
+
+Question: When was Luther examined at Augsburg by the papal legate?
+Answer: October 1518
+Our Answer: night
+
+Question: When did papal nuncio Karl von Miltitz get Luther to make concessions ?
+Answer: January 1519
+Our Answer: June and July 1519
+
+Question: When did Zwilling and Karistadt become active at Wittenberg?
+Answer: June 1521
+Our Answer: Christmas
+
+Question: When did Luther save the group of nuns from the convent?
+Answer: April 1523
+Our Answer: 41 years old
+
+Question: When was the wedding banquet celebrated?
+Answer: 27 June
+Our Answer: the evening of the same day
+
+Question: When did Luther and his wife live?
+Answer: The Black Cloister
+Our Answer: 1525
+
+Question: When did Luther write a German mass?
+Answer: early 1526
+Our Answer: 1523
+
+Question: When did Luther write Wir glauben all an einen Gott?
+Answer: 1524
+Our Answer: 1525
+
+Question: When did Luther write an extreme treatise against the Jews?
+Answer: 1543
+Our Answer: 1523
+
+Question: When were the elections that produced a higher vote by Protestant Nazi sympathizers than by Catholics?
+Answer: 1928-1933
+Our Answer: 1993
+
+Question: When was a third visit to Mnafeld scheduled? 
+Answer: early 1546
+Our Answer: late 1545
+
+Question: When did Luther waken with more chest pains?
+Answer: 1 a.m
+Our Answer: 8 a.m. 17 February 1546
+
+Question: When were images being used to promote the spread of Lutheranism?
+Answer: 1530s and 1540s
+Our Answer: 1530 1546
+
+Question: When is Luther commemorated in the Lutheran Calendar of Saints ?
+Answer: 18 February
+Our Answer: 31 October
+
+Question: When did BSkyB end their analogue service?
+Answer: 27 September 2001
+Our Answer: two months
+
+Question: When was virgin media rebranded from NTL Telewest?
+Answer: 2007
+Our Answer: the years
+
+Question: When did Great Britain claim Australia? 
+Answer: 1788
+Our Answer: 1901
+
+Question: When was Victoria first settled?
+Answer: 1803
+Our Answer: 1901
+
+Question: When has Toyota said it will close its Victoria plant?
+Answer: 2017
+Our Answer: the 21st century
+
+Question: When did Holden announce that it will close its Victoria plant?
+Answer: May 2013
+Our Answer: December of the same year
+
+Question: When did the Huguenots secure the right to own land in the Baronies?
+Answer: 1697
+Our Answer: the early years
+
+Question: When did these rebellions take place?
+Answer: between 1621 and 1629
+Our Answer: a decade
+
+Question: When did the British defeat New France?
+Answer: 1759-60
+Our Answer: years
+
+Question: When did Ribault first establish a settlement in South Carolina?
+Answer: 1562
+Our Answer: 1564
+
+Question: When were these settlers naturalized as English colonists?
+Answer: 12 May 1705
+Our Answer: the 18th and 19th centuries
+
+Question: When was the Dutch Revolt?
+Answer: 1568–1609
+Our Answer: the early days
+
+Question: When did this leader publish a French language Bible?
+Answer: 1530
+Our Answer: 1523
+
+Question: When was the St. Bartholomew's Day Massacre?
+Answer: 24 August – 3 October 1572
+Our Answer: 24 August 3 October 1572
+
+Question: When was the second oil crisis?
+Answer: 1979
+Our Answer: March 1974
+
+Question: When did Syria and Egypt launch a surprise attack on Israel?
+Answer: On October 6, 1973
+Our Answer: October 6, 1973 Yom Kippur
+
+Question: When did the series of strikes happen?
+Answer: winter of 1973–74
+Our Answer: Sundays
+
+Question: When did Honda, Toyota and Nissan open US assembly plants?
+Answer: A decade after the 1973
+Our Answer: 1981 A decade 1973
+
+Question: When American car companies rolled out with their domestic replacement cars, which policy ended?
+Answer: captive import policy
+Our Answer: a few years
+
+Question: When was Mueller announced and appointed as Deputy Associate Administrator?
+Answer: July 23, 1963
+Our Answer: September 1
+
+Question: When was this committee by Seaman established?
+Answer: July 1961
+Our Answer: late 1961 early 1962
+
+Question: When did the launches of boilerplate CSMs occur in orbit?
+Answer: 1964 and 1965
+Our Answer: 1964 1965
+
+Question: When was the Skylab launched?
+Answer: 1973
+Our Answer: 1979
+
+Question: When was Skylab's last crew on the station before it re-entered Earth's atmosphere?
+Answer: February 8, 1974
+Our Answer: 1979
+
+Question: When do treaties apply?
+Answer: as soon as they enter into force, unless stated otherwise
+Our Answer: to the metropolitan territories of the member states in territories where a member state is responsible for external relations , for example Gibraltar and the Åland islands
+
+Question: When do the stated Treaties apply?
+Answer: Treaties apply as soon as they enter into force, unless stated otherwise
+Our Answer: to the metropolitan territories of the member states in territories where a member state is responsible for external relations , for example Gibraltar and the Åland islands
+
+Question: When year was the Maastrich Treaty signed?
+Answer: 1992
+Our Answer: 1985
+
+Question: When was there an attempt to reform the law of the EU?
+Answer: Following the Nice Treaty
+Our Answer: 2004
+
+Question: When did the first direct elections take place?
+Answer: 1979
+Our Answer: every five years
+
+Question: When did Costa v ENEL take place?
+Answer: 1964
+Our Answer: 1962 1958
+
+Question: When was the European Convention on Human Rights established?
+Answer: 1950
+Our Answer: 1999
+
+Question: When was the basis for the Social Chapter developed?
+Answer: 1989
+Our Answer: 1997
+
+Question: When did the UK formally subscribe to the Agreement on Social Policy?
+Answer: 1997
+Our Answer: 1994 1996
+
+Question: When was the competence for the Union to create criminal sentences for ecological crimes contested?
+Answer: 2005
+Our Answer: October 2007
+
+Question: When did it retract to a inland formation?
+Answer: It expanded again during the Middle Miocene, then retracted to a mostly inland formation at the last glacial maximum.
+Our Answer: the last 34 million years
+
+Question: When do juvenile develop into adults?
+Answer: after dropping to the sea-floor
 Our Answer: No_Answer_Found
 
-Question: Where did Luther describe the resting place of the saints?
-Answer: Smalcald Articles
-Our Answer: after death
-
-Question: Where did Luther say that the soul doesn't sleep, but rather has visions?
-Answer: Commentary on Genesis
+Question: When do bathyctena chuni, euplokamis stationis and eurhamphaea vexilligera excrete secretions?
+Answer: are disturbed,
 Our Answer: No_Answer_Found
 
-Question: Where was Luther's last sermon preached?
-Answer: Eisleben
-Our Answer: toward a "fiery summons
+Question: When were the public housing developments built in the neighborhood?
+Answer: between the 1960s and 1990s
+Our Answer: the 1960s 1990s
 
-Question: Where was Luther buried?
-Answer: in the Castle Church
-Our Answer: Wittenberg
+Question: When did the second edition of Gasquet's book come out?
+Answer: 1908
+Our Answer: 1893
 
-Question: Where does southern California's megalopolis standard in terms of population nationwide?
-Answer: third
-Our Answer: Southern California
+Question: When did the y. pestis reach England?
+Answer: spring of 1349
+Our Answer: the spring 1349
 
-Question: Where are international corporations headquartered?
-Answer: University of California, Irvine
-Our Answer: West Irvine
+Question: When did the plague return to Europe?
+Answer: throughout the 14th to 17th centuries
+Our Answer: every year 1346 1671
 
-Question: Where according to gross state product does Victoria rank in Australia?
-Answer: second
-Our Answer: Australia
+Question: When was the last plague outbreak?
+Answer: The last plague outbreak ravaged Oslo in 1654.
+Our Answer: the 16th and 17th centuries
 
-Question: Where is the Asian influence strongest in Victoria?
-Answer: Bendigo
-Our Answer: New South Wales
-
-Question: Where were the Lambing Flat riots?
-Answer: New South Wales
-Our Answer: Buckland Valley
-
-Question: Where in Australia is Victoria located?
-Answer: south-east
-Our Answer: Australia
-
-Question: Where was Victoria first set to be located in Australia?
-Answer: New South Wales
-Our Answer: Melbourne Australasia
-
-Question: Where was the location of the colonial government that administered the new colony?
-Answer: Sydney
-Our Answer: New Holland
-
-Question: Where do other tourist events happen in Victoria outside of Melbourne?
-Answer: regional cities
-Our Answer: Phillip Island Warrnambool Geelong the popular Port Fairy Folk Festival
-
-Question: Where in South Carolina did Huguenot nobility settle?
-Answer: the Charleston Orange district
-Our Answer: present-day Charleston South Carolina
-
-Question: Where was the Gate of King Hugo?
-Answer: Tours
-Our Answer: Huguon King Hugo
-
-Question: Where did Huguenots and Walloons settle in England?
-Answer: Canterbury
-Our Answer: Kent Faversham Maidstone
-
-Question: Where is D'Olier Street?
-Answer: Dublin
-Our Answer: Portarlington
-
-Question: Where can one find the formerly Huguenot farms in South Africa?
-Answer: Western Cape province
-Our Answer: France
-
-Question: Where did this pro-reform leader teach?
-Answer: University of Paris
-Our Answer: Geneva
-
-Question: Where did the Huguenots land in New York originally?
-Answer: "Bauffet's Point"
-Our Answer: Davenports Neck
-
-Question: Where did the world's first railway journey terminate?
-Answer: Abercynon
-Our Answer: north-east England
-
-Question: Where was the Charles Porter steam engine indicator shown?
-Answer: London Exhibition
-Our Answer: in use by 1851
-
-Question: Where was the centrifugal governor first observed by Boulton?
-Answer: flour mill
+Question: When the three types of rock are re-melted what is formed? 
+Answer: new magma
 Our Answer: No_Answer_Found
 
-Question: Where does heat rejection occur in the Rankine cycle?
-Answer: in the condenser
-Our Answer: ( as in the Carnot cycle )
-
-Question: Where does oxygen rank by mass in the planet's biosphere?
-Answer: most abundant
-Our Answer: some 1015 tonnes).[d] Earth the Solar System
-
-Question: Where by mass is oxygen a major part?
-Answer: world's oceans
-Our Answer: some 1015 tonnes).[d] Earth the Solar System
-
-Question: Where was the Space Task Group located?
-Answer: NASA's Langley Research Center
-Our Answer: Houston Texas
-
-Question: Where was the Manned Spacecraft Center located?
-Answer: Houston, Texas
-Our Answer: Houston Texas
-
-Question: Where did Golovin work prior to joining the "Space Vehicle Panel"?
-Answer: NASA
+Question: When rock formations are found on top of a fault that have not been cut, then they must be older or younger than the fault?
+Answer: younger than the fault
 Our Answer: No_Answer_Found
 
-Question: Where was the CM intended to land upon re entering the Earth's atmosphere?
-Answer: ocean
+Question: When rock folds deep in the Earth it can fold one of two ways, when it buckles upwards it creates what? 
+Answer: antiforms
+Our Answer: in folding
+
+Question: When rock folds deep in the Earth it can fold one of two ways, when it buckles downwards it creates what? 
+Answer: synforms
+Our Answer: in folding
+
+Question: When was Richard Grainger actively building and developing?
+Answer: between 1835 and 1842
+Our Answer: 49
+
+Question: When did the DFDS ferry service to Sweden case operation?
+Answer: end of October 2006
+Our Answer: summer 2007
+
+Question: When is Sir Pindar's house dated?
+Answer: c1600
+Our Answer: 1523
+
+Question: When was the Soulages collection acquired?
+Answer: between 1859 and 1865
+Our Answer: the previous year
+
+Question: When is the Sicilian Tristan Quilt dated?
+Answer: late 14th-century
 Our Answer: No_Answer_Found
 
-Question: Where were Schirra, Eisele and Cunningham relocated to after different astronauts were selected for the AS-258 mission?
-Answer: Apollo 1 backup crew
-Our Answer: on the 14-day first flight
+Question: When was ABC1 discontinued because of low viewership?
+Answer: September 8, 2007
+Our Answer: October
 
-Question: Where did Apollo 1's crew conduct tests at Kennedy Space Center?
-Answer: altitude chamber
-Our Answer: the Kennedy Space Center
+Question: When did ABC Films begin selling programs to other networks?
+Answer: 1959
+Our Answer: the 1970s
 
-Question: Where is the principle of proportionality recognized in the EC treaty?
-Answer: in Article 5
-Our Answer: to the general principle of proportionality
+Question: When did ABC begin broadcasting the Miss America Pageant?
+Answer: 1954
+Our Answer: 2016
 
-Question: Where is the European Court of justice likely to get inspiration from?
-Answer: from the constitutional traditions common to the member states
+Question: When did Good Morning America begin airing?
+Answer: 1975
+Our Answer: the last nine years
+
+Question: When did General Hospital begin airing?
+Answer: 1963
+Our Answer: the last nine years
+
+Question: When is sports programming provided by ABC on Saturday afternoons?
+Answer: 12:00 to 6:00 p.m. Eastern Time
+Our Answer: the summer Sundays
+
+Question: When was the FCC's sixth report and order released?
+Answer: 1952
+Our Answer: February 9, 1953
+
+Question: When did WJZ-TV in NYC begin broadcasting?
+Answer: August 10, 1948
+Our Answer: October 9, 1948
+
+Question: When did ABC premier the Flintstones?
+Answer: September 30, 1960
+Our Answer: The 1960s
+
+Question: When did ABC and Disney's television relationship lapse?
+Answer: 1961
+Our Answer: 1959
+
+Question: When did the logo bug begin appearing throughout the entire program for ABC shows?
+Answer: 1995–96 season
+Our Answer: Ten years later 1993
+
+Question: When was Time Warner cable forced to restore ABC stations to affected markets?
+Answer: afternoon of May 2.
+Our Answer: April 30, 2000
+
+Question: When did the Steven Spielberg movie Duel first debut?
+Answer: 1971
+Our Answer: September 1969
+
+Question: When did Sunday Night Football premiere on NBC?
+Answer: 2006
+Our Answer: that year
+
+Question: When Sunday Night Football premiered, to which network did Monday Night Football move?
+Answer: ESPN
+Our Answer: that year
+
+Question: When did Michael Eisner first join ABC?
+Answer: 1966
+Our Answer: 1976
+
+Question: When did the FCC begin imposing fin-syn rules?
+Answer: 1970
+Our Answer: the same year
+
+Question: When was ABC's first logo introduced?
+Answer: 1946
+Our Answer: 1953
+
+Question: When did ABC adopt it's iconic circle logo?
+Answer: 1957
+Our Answer: 1953
+
+Question: When did the Untouchables debut on ABC?
+Answer: April 1959
+Our Answer: late 1958
+
+Question: When was Temüjin's half-brother Begter killed?
+Answer: during one hunting excursion
+Our Answer: the next several years
+
+Question: When did Genghis Khan capture the Jin dynasty capital?
+Answer: 1215
+Our Answer: 1211
+
+Question: When does immunodeficiency occur?
+Answer: when the immune system is less active than normal
 Our Answer: No_Answer_Found
 
-Question: Where did water to the west of the Amazon drainage basin flow towards?
-Answer: the Pacific
-Our Answer: the Atlantic
+Question: When a pathogen has been eaten by a phagocyte it becomes trapped in what vesicle?
+Answer: phagosome
+Our Answer: to specific locations by cytokines
 
-Question: Where did the water in the Amazon Basin flow towards when moving west?
-Answer: the Pacific
-Our Answer: the Atlantic
-
-Question: Where is Brazil ranked globally in soybean production?
-Answer: second-largest global producer
-Our Answer: Brazil the United States
-
-Question: Where do Ctenophora live?
-Answer: marine waters worldwide.
-Our Answer: from a few millimeters to 1.5 m (4 ft 11 in ) in size
-
-Question: Where do ctenophora live?
-Answer: marine waters
-Our Answer: from a few millimeters to 1.5 m (4 ft 11 in ) in size
-
-Question: Where do ctenophores be found in large numbers?
-Answer: In bays
-Our Answer: the Black Sea
-
-Question: Where can ctenophores be found in large amounts?
-Answer: In bays
-Our Answer: the Black Sea
-
-Question: Where is the aboral organ located?
-Answer: at the opposite end from the mouth
+Question: When an activated killer T cell finds cells where the MHC 1 receptor has specific antigens, it releases cytotoxins such as what?
+Answer: perforin
 Our Answer: No_Answer_Found
 
-Question: Where is the mouth located on the pleuobrachia located?
-Answer: at the narrow end
+Question: When would a person be considered to be excising a constitutional impasse?
+Answer: the head of government would be acting in her or his capacity as public official
+Our Answer: as pertaining to a citizen's relation to the state and its laws
+
+Question: When did the earliest examples of civil disobedience as a whole occur?
+Answer: during the Roman Empire
+Our Answer: the days, weeks months
+
+Question: When was Thoreau's essay published?
+Answer: after the end of the Mexican War
+Our Answer: the days, weeks months
+
+Question: When is the oldest recorded incident of civil disobedience?
+Answer: during the Roman Empire
+Our Answer: the days, weeks months
+
+Question: When large groups of people all boycott a system or don't pay taxes it can be considered?
+Answer: coercive
 Our Answer: No_Answer_Found
 
-Question: Where are the rows of combs located?
-Answer: from near the mouth to the opposite end
-Our Answer: in a metachronal rhythm rather like that of a Mexican wave
-
-Question: Where do platycenida live?
-Answer: on rocks, algae, or the body surfaces of other invertebrates
+Question: When do cash flow problems exist?
+Answer: when the present amount of funding cannot cover the current costs for labour and materials
 Our Answer: No_Answer_Found
 
-Question: Where are the gonads located?
-Answer: in the parts of the internal canal network under the comb rows
+Question: When does rain typically fall in Jacksonville?
+Answer: May through September
+Our Answer: winters
+
+Question: When there are many workers competing for a few jobs its considered as what?
+Answer: low demand
 Our Answer: No_Answer_Found
 
-Question: Where do juvenile platyctenids live?
-Answer: among the plankton
+Question: When did income inequality begin to increase in the US?
+Answer: 1970s
+Our Answer: 1910 to 1940
+
+Question: When economic inequality is smaller, more waste and pollution is?
+Answer: created
 Our Answer: No_Answer_Found
 
-Question: Where is the neighborhood of Sunnyside located in Fresno?
-Answer: Fresno's far southeast side
-Our Answer: Sunnyside
+Question: When are inequalities in wealth justified, according to John Rawls?
+Answer: when they improve society as a whole
+Our Answer: in A Theory of Justice
 
-Question: Where is the home of the Sunnyside Country Club?
-Answer: Sunnyside
-Our Answer: Chestnut Avenue the West
+Question: When does Doctor Who transition to a new body?
+Answer: after sustaining an injury
+Our Answer: 2013
 
-Question: Where is Audra McDonald from?
-Answer: Fresno
-Our Answer: Broadway New York City
+Question: When did the BBC receive a favorable ruling on the trade mark claim?
+Answer: 2002
+Our Answer: 1998
 
-Question: Where is the airport located?
-Answer: the West Side
-Our Answer: Church Ave west
+Question: When was the last episode of the original series?
+Answer: 6 December 1989
+Our Answer: almost an entire season season 7
 
-Question: Where did the genoese traders bring the plague?
-Answer: Sicily
-Our Answer: Europe Kaffa the Crimea
+Question: When was an extended episode of Doctor Who shown?
+Answer: Christmas Day
+Our Answer: 2005
 
-Question: Where was the disease spreading between 1348 and 1350?
-Answer: Germany and Scandinavia
-Our Answer: Italy Europe northwestern Russia
+Question: When did the practice of wiping tapes stop?
+Answer: 1978
+Our Answer: Between about 1964 and 1973
 
-Question: Where did the residents of Antioch flee to?
-Answer: The city's residents fled to the north
-Our Answer: western Europe southern Russia
-
-Question: Where and when did the investigation of the plague pathogen begin?
-Answer: Hong Kong in 1894
-Our Answer: India
-
-Question: Where did scientists find their Y. pestis sample? 
-Answer: from the tooth sockets in human skeletons
-Our Answer: the Black Death
-
-Question: Where was the burial site used for testing located?
-Answer: East Smithfield
-Our Answer: the Black Death
-
-Question: Where can population estimates be extrapolated from?
-Answer: the clergy
-Our Answer: England
-
-Question: Where do thrust faults form?
-Answer: In the shallow crust
-Our Answer: the Earth
-
-Question: Where can the entire sedimentary sequence of the Grand Canyon be seen in less than the length of a meter?
-Answer: within the Maria Fold and Thrust Belt
-Our Answer: the Grand Canyon
-
-Question: Where do dikes form?
-Answer: in areas that are being actively deformed
+Question: When was the term "regeneration" first used?
+Answer: the Doctor's third on-screen regeneration
 Our Answer: No_Answer_Found
 
-Question: Where is the oldest known rock in the world located?
-Answer: Slave craton in northwestern Canada
-Our Answer: the mid-continental United States the Grand Canyon the southwestern United States
+Question: When were the Daleks reintroduced in the revival series?
+Answer: series 1
+Our Answer: 2005 2009
 
-Question: Where is this housing style being developed recently?
-Answer: the Ouseburn valley
-Our Answer: the Tyne
+Question: When was a Doctor Who Prom performed?
+Answer: 27 July 2008
+Our Answer: 2005
 
-Question: Where does the proportion of shared and converted houses in 2011 put this dwelling type in the color-coded brackets?
-Answer: 5.9%
-Our Answer: Manchester Liverpool Harrogate Cheltenham Bath London Hastings Brighton
+Question: When was the soundtrack for series 5 released?
+Answer: 8 November 2010
+Our Answer: December 2011
 
-Question: Where are some words from the Geordia dialect used?
-Answer: Northern United Kingdom
-Our Answer: Newcastle
+Question: When was Doctor Who viewing at its highest level?
+Answer: During the ITV network strike of 1979
+Our Answer: 18 months
 
-Question: Where will the 2009 International Arts Fair be held?
-Answer: Sage Gateshead Music and Arts Centre
-Our Answer: Punjabi
+Question: When was the third period of high viewership for the Doctor Who series?
+Answer: After the series' revival in 2005
+Our Answer: 18 months
 
-Question: Where was a cinema relocated while repairs were underway?
-Answer: Old Town Hall
-Our Answer: Gateshead
+Question: When did Torchwood premier?
+Answer: 22 October 2006
+Our Answer: 2011
 
-Question: Where is the Tyneside Bar located?
-Answer: roof
-Our Answer: the Tyneside Bar
+Question: When did the second series of Torchwood play?
+Answer: 2008
+Our Answer: 2011
 
-Question: Where is the Science Village located?
-Answer: Centre for Life
-Our Answer: Newcastle its Science Village Tyneside the Newcastle Northern England
+Question: When did the Eleventh Doctor appear in the Sarah Jane series?
+Answer: 2010
+Our Answer: 2007 24 September 2007
 
-Question: Where is Newcastle's horse racing course located?
-Answer: Gosforth Park
-Our Answer: Newcastle South Shields
+Question: When were the earliest Doctor Who books available?
+Answer: the mid-sixties
+Our Answer: 2005
 
-Question: Where can you see greyhound racing in Newcastle?
-Answer: Brough Park
-Our Answer: the Tyne Bridge Gateshead
+Question: When was the Gerald Ratner Athletics Center constructed?
+Answer: 2003
+Our Answer: 2011
 
-Question: Where did ITV Tyne Tees move in 2005?
-Answer: a new facility
-Our Answer: 2005 City Road the MetroCentre Gateshead
+Question: When did Khan formally declare the Yuan dynasty?
+Answer: 1271
+Our Answer: The Yuan dynasty
 
-Question: Where does the Newcastle Student Radio station broadcast from during terms?
-Answer: Newcastle University's student's union building
-Our Answer: Newcastle Gateshead
+Question: When did Mongke Khan become Great Khan?
+Answer: 1251
+Our Answer: 1206
 
-Question: where is the Victoria and Albert Museum located?
-Answer: The V&A is located in the Brompton district of the Royal Borough of Kensington and Chelsea
-Our Answer: the Royal Borough Kensington
+Question: When did Mongke Khan die?
+Answer: 1259
+Our Answer: 1256
 
-Question: Where was the V&A transferred to from its original location at Marlborough House?
-Answer: Somerset House
-Our Answer: Brompton Park House
+Question: When did the Jin dynasty end?
+Answer: 1234
+Our Answer: in Quzhou where two Duke Yanshengs lived to this day
 
-Question: Where in Dundee will the gallery be located?
-Answer: on the city's waterfront
-Our Answer: Scotland
+Question: When did Kublai attack Xiangyang?
+Answer: between 1268 and 1273
+Our Answer: 1268 1273
 
-Question: Where on the side are the two Cast Courts located?
-Answer: southeast of the garden
+Question: When was Dali conquered by the Yuan?
+Answer: 1253
+Our Answer: the Yuan dynasty
+
+Question: When did Temur rule?
+Answer: 1294 to 1307
+Our Answer: 1285
+
+Question: When was Geegen the emperor?
+Answer: 1321 to 1323
+Our Answer: only two years 1321 1323
+
+Question: When did Tugh Temur die?
+Answer: 1332
+Our Answer: 1340
+
+Question: When did the Yuan people suffer a series of natural disasters?
+Answer: From the late 1340s onwards
+Our Answer: two years later 1370
+
+Question: When was the Ming dynasty in power?
+Answer: 1368–1644
+Our Answer: today
+
+Question: When had the Six Ministries existed?
+Answer: since the Sui and Tang dynasties
 Our Answer: No_Answer_Found
 
-Question: Where is the sculpture gallery now located?
-Answer: Art Library
+Question: When did Zhu Shijie die?
+Answer: 1314
+Our Answer: 1249
+
+Question: When did Zhu publish 'Jade Mirror of the Four Unknowns'?
+Answer: 1303
+Our Answer: 1249
+
+Question: When did Wei Yilin die?
+Answer: 1347
+Our Answer: 1277
+
+Question: When did the Yuan begin using bronze printing plates for its money?
+Answer: 1275
+Our Answer: 1294
+
+Question: When was the City of Malindi established?
+Answer: 14th century
+Our Answer: the centuries
+
+Question: When was Waruhiu Itote captured?
+Answer: 15 January 1954
+Our Answer: 21 October 1956
+
+Question: When did the different colonies come together and form Kenya?
+Answer: 12 December 1963
+Our Answer: 1963 12 months later 12 December 1964
+
+Question: When was a vote help to ratify the change to the constitution?
+Answer: August 2010
+Our Answer: that day
+
+Question: When was Kenya Electricity Generating Company established?
+Answer: 1997
+Our Answer: between 2001 and 2003
+
+Question: When did Kenya reach the semi-finals?
+Answer: 2003
+Our Answer: 1996
+
+Question: When did Pachauri resign as chair of the IPCC?
+Answer: February 2015
+Our Answer: May 2002
+
+Question: When was the paper published that the "Millennial Northern Hemisphere temperature reconstruction" graph was based on?
+Answer: 1999
+Our Answer: the mid 20th century
+
+Question: When was the IPCC Third Assessment Report published?
+Answer: 2001
+Our Answer: 2007
+
+Question: When was a study published confirming the 2001 IPCC projections?
+Answer: 1 February 2007
+Our Answer: the six years
+
+Question: When was the first plastome sequenced?
+Answer: 1986
+Our Answer: 1962
+
+Question: When do Plastoglobuli occur in linked groups?
+Answer: In old or stressed chloroplasts
+Our Answer: either to a thylakoid or to another plastoglobulus attached to a thylakoid , a configuration that allows a plastoglobulus to exchange its contents with the thylakoid network
+
+Question: When do chloroplasts spread out flat?
+Answer: low-light conditions
 Our Answer: No_Answer_Found
 
-Question: Where were ABC's international networks mainly situated in the 1970s?
-Answer: Japan and Latin America
-Our Answer: Japan Latin America
-
-Question: Where was New Year's Rockin' Eve hosted?
-Answer: Times Square
-Our Answer: Las Vegas
-
-Question: Where is the ABC four-note jingle still in use?
-Answer: ABC on Demand to the beginning of the ABC show
-Our Answer: during the timeslot card as well as the schedule sequence that began each night's prime time lineup
-
-Question: Where did the ABC New York flagship stations move their facilities to in 1953?
-Answer: 7 West 66th Street
-Our Answer: Central Park
-
-Question: Where was ABC Marine World opened?
-Answer: Redwood City, California
-Our Answer: Redwood City California
-
-Question: Where did Temüjin hide during his escape from the Tayichi'ud?
-Answer: a river crevice
-Our Answer: Jelme Bo'orchu
-
-Question: Where was Temüjin's patron Toghrul exiled?
-Answer: Qara Khitai
+Question: When do chloroplasts arrange in vertical columns or turn sideways?
+Answer: Under intense light
 Our Answer: No_Answer_Found
 
-Question: Where did the Jin emporer relocate his capital after Genghis Khan overran the norther part of his empire?
-Answer: Kaifeng
-Our Answer: Western Xia
-
-Question: Where did Jebe's division of Genghis Khan's army campaign in Khwarezmia?
-Answer: the southeast
-Our Answer: Khwarzemia
-
-Question: Where was the Khwarezmid capital moved after Genghis Khan's forces prevailed in Samarkand?
-Answer: Bukhara
-Our Answer: the Khwarezmid Empire
-
-Question: Where did Jebe and Subutai spend the winter following the split of the Mongol army?
-Answer: near the Black Sea
-Our Answer: Subutai
-
-Question: Where was the Kievian force that confronted Subutai's army defeated in 1223?
-Answer: Kalka River
-Our Answer: the Khwarezmian Empire Persia Armenia
-
-Question: Where did Genghis Khan spend the summer after taking Deshun?
-Answer: Liupanshan
-Our Answer: Xining province
-
-Question: Where is Genghis Khan's presumed to have been delivered?
-Answer: Khentii Aimag
-Our Answer: the Onon River
-
-Question: Where in China is Genghis Khan most favorably viewed today?
-Answer: Inner Mongolia region
-Our Answer: the People's Republic of China
-
-Question: Where did the pharmacist stand in relation to the Emperor's personal physicians?
-Answer: ranked above
-Our Answer: Japan
-
-Question: Where is the oldest pharmacy stated to be located?
-Answer: Church of Santa Maria Novella in Florence, Italy
-Our Answer: Dubrovnik Croatia
-
-Question: Where do pharmacists acquire more preparation following pharmacy school?
-Answer: a pharmacy practice residency
-Our Answer: For example
-
-Question: Where are many hospital pharmacies located?
-Answer: within the premises of the hospital
+Question: When do chloroplasts produce defense signals?
+Answer: After detecting stress in a cell
 Our Answer: No_Answer_Found
 
-Question: Where do clinical pharmacists work with patients?
-Answer: all health care settings
+Question: When might starch grains become overly large?
+Answer: Under conditions such as high atmospheric CO2 concentrations
 Our Answer: No_Answer_Found
 
-Question: Where do a majority of consultant pharmacists tend to work?
-Answer: nursing homes
-Our Answer: the United States
-
-Question: Where might the doctor's self-interest be at odds with the patient's self-interest?
-Answer: in obtaining cost-effective medication and avoiding the unnecessary use of medication that may have side-effects
-Our Answer: the U.S.
-
-Question: Where are the specialized cells that eliminate cells that recognize self-antigens located?
-Answer: thymus and bone marrow
+Question: When does photorespiration happen?
+Answer: when the oxygen concentration is too high
 Our Answer: No_Answer_Found
 
-Question: Where in Las Vegas did a famous protest take place?
-Answer: Camp Mercury nuclear test site
-Our Answer: Las Vegas Nevada
+Question: When was the measurement of the Rhine introduced? 
+Answer: 1939
+Our Answer: 2010
 
-Question: Where is Harvard stadium located?
-Answer: Allston
-Our Answer: the Charles River
-
-Question: Where are the Harvard medical, Dental and school of Public Health located?
-Answer: Longwood Medical and Academic Area
-Our Answer: Harvard Stadium Allston downtown Boston
-
-Question: Where are America's oldest collection of maps, gazettes, and atlases housed?
-Answer: Pusey Library
-Our Answer: East Asia
-
-Question: Where does newly created wealth concentrate? 
-Answer: the possession of already-wealthy individuals
+Question: When the Rhine emerges from Lake Constance which way does it flow?
+Answer: westward
 Our Answer: No_Answer_Found
 
-Question: Where does the pattern of higher income-longer lives still hold true?
-Answer: poorer countries
-Our Answer: Sweden Japan
+Question: When did the last glacial start?
+Answer: 74,000 (BP
+Our Answer: today
 
-Question: Where have the first episodes of Doctor Who always appeared?
-Answer: on the BBC's mainstream BBC One channel
+Question: When did the last glacial end?
+Answer: 11,600 BP
+Our Answer: today
+
+Question: When was the Last Glacial Maximum?
+Answer: 22,000–14,000 yr BP
+Our Answer: the last Ice Age
+
+Question: When did rapid warming begin and help vegetation?
+Answer: 13,000 BP
+Our Answer: 22,000 years ago
+
+Question: When have humans started impacting the delta?
+Answer: 3000 yr BP
+Our Answer: the 11–13th century AD
+
+Question: When was the Rhine first discovered?
+Answer: 1st century BC
+Our Answer: At that time
+
+Question: When did the Rhine stop being the Roman boundary?
+Answer: the empire fell
+Our Answer: AD 14 AD 70
+
+Question: When did the Rhine become borders with Francia?
+Answer: 6th century
+Our Answer: the 9th
+
+Question: When was the Rhine fully within the Holy Roman Empire?
+Answer: 10th century
+Our Answer: the 6th century
+
+Question: When was the Upper Rhine sold to Burgundy?
+Answer: 1469
+Our Answer: the 6th century
+
+Question: When was the confederation of the Rhine?
+Answer: 1806
+Our Answer: the Middle Ages
+
+Question: When was the Rhine crisis?
+Answer: 1840
+Our Answer: the Middle Ages
+
+Question: When was Rhineland subject to the Treaty of Versailles?
+Answer: end of World War I
+Our Answer: 1935
+
+Question: When would the occupation of allies leave Rhineland?
+Answer: 1935
+Our Answer: 1930
+
+Question: When did the German army reoccupy Rhineland?
+Answer: 1936
+Our Answer: 1930
+
+Question: When was the Rhine measurement corrected back to the original?
+Answer: 2010
+Our Answer: 1932
+
+Question: When was the current parliament of Scotland convened?
+Answer: Following a referendum in 1997
+Our Answer: 1997 1998
+
+Question: When was there a sharp rise in nationalism in Scotland?
+Answer: the late 1960s
+Our Answer: the next three hundred years
+
+Question: When was the final legislative proposals for a Scottish Assembly passed?
+Answer: 1978
+Our Answer: 1974
+
+Question: When was the Scottish Constitutional Convention held?
+Answer: 1989
+Our Answer: 1995
+
+Question: When is the Members Debate held?
+Answer: Immediately after Decision Time
+Our Answer: 45 minutes
+
+Question: When are subject committees established?
+Answer: beginning of each parliamentary session
 Our Answer: No_Answer_Found
 
-Question: Where is Doctor Who the record holder for most successful science fiction series of all time?
-Answer: Guinness World Records
-Our Answer: on The programme over - all broadcast ratings , DVD and book sales , and iTunes traffic
+Question: When do members proceed to vote on whether they agree to the principles of the final bill?
+Answer: Decision Time
+Our Answer: to the bill , designed to thwart further progress and take up parliamentary time , to cause the bill to fall without a final vote being taken
 
-Question: Where is the Hyde Park Day School located?
-Answer: the University of Chicago campus
-Our Answer: the Hyde Park Day School
+Question: When was the British Nationality Act passed?
+Answer: 1981
+Our Answer: 2003
 
-Question: Where is the Apache Point Observatory located?
-Answer: Sunspot, New Mexico
-Our Answer: Chicago
+Question: When was al-Nimeiry overthrown?
+Answer: 1985
+Our Answer: 1991
 
-Question: Where did Mongke Khan attack the Song dynasty?
-Answer: southern China
-Our Answer: the Middle East
+Question: When was the FIS founded?
+Answer: 1989
+Our Answer: 1991
 
-Question: Where did the Song dynasty continue to cause problems for Kublai?
-Answer: south
-Our Answer: Korea
+Question: When was Zia-ul-Haq killed?
+Answer: 1988
+Our Answer: July 1977
 
-Question: Where did Korea border Kublai's territory?
-Answer: northeast
-Our Answer: Korea
+Question: When did the age of Imperialism begin?
+Answer: around 1700
+Our Answer: thousands of years the early 18th century the middle of the 20th century
 
-Question: Where did Kublai move the Mongol capital to?
-Answer: Khanbaliq
-Our Answer: Karakorum Mongolia
+Question: When was the military-political complex reflected upon within the scope of understanding imperialism?
+Answer: the 1950s
+Our Answer: the interwar years
 
-Question: Where did the Grand Canal start?
-Answer: southern China
-Our Answer: the Far East
+Question: When were Joseph Schumpeter and Norman Angell at their most prolific writing period?
+Answer: before World War I
+Our Answer: the interwar years
 
-Question: Where did Kublai extend the Grand Canal to?
-Answer: Daidu in the north
-Our Answer: the Grand Canal southern China
+Question: When did France begin in earnest to rebuild its global empire?
+Answer: 1850
+Our Answer: 1830
 
-Question: Where did the Tran dynasty rule?
-Answer: Annam (Dai Viet)
-Our Answer: Song dynasty China
+Question: When did French Republicans back building the French empire?
+Answer: when Germany started to build her own
+Our Answer: 1850
 
-Question: Where were Persians more successful compared to Chinese in the Yuan?
-Answer: Ilkhanate
-Our Answer: Central Asia
+Question: When did the Germanic tribes claim territory in north and west Europe?
+Answer: middle period of classical antiquity
+Our Answer: 1000
 
-Question: Where was the Central Secretariat based?
-Answer: Khanbaliq
-Our Answer: present-day Hebei Shandong Shanxi present-day Inner Mongolia the Yellow River The Central Region modern Beijing
+Question: When was the the second German empire founded?
+Answer: after the Franco-German War
+Our Answer: the late 19th century
 
-Question: Where is Kenya located?
-Answer: in Africa
-Our Answer: Tanzania Uganda South Sudan Ethiopia Somalia
+Question: When did Germany found their first settlement?
+Answer: 1884
+Our Answer: 1883–84
 
-Question: Where is 97% of the population located?
-Answer: Bantu and Nilotic
-Our Answer: West-Central Africa
+Question: When was the first Sino-Japanese War?
+Answer: 1894
+Our Answer: 1937
 
-Question: Where are these animals mostly located?
-Answer: Masai Mara
-Our Answer: buffalo Africa Kenya
+Question: When was the Russian Policy "Indigenization" defunded?
+Answer: 1932
+Our Answer: 1921
 
-Question: Where were the Kikuyu people located?
-Answer: The central highlands
-Our Answer: Kenya
+Question: When did Great Britain lose its colonies in North America?
+Answer: 1776
+Our Answer: the 1840s
 
-Question: Where does Kenya rang on the CPI scale?
-Answer: low
-Our Answer: Kenya
+Question: When did the Spanish and Portuguese colonies gain their independance.
+Answer: about 1820
+Our Answer: 1776
 
-Question: Where is Kenya place on the scale in 2012?
-Answer: 139th out of 176 total countries
-Our Answer: Kenya
+Question: When was the defeat of Napoleonic France?
+Answer: 1815
+Our Answer: the 1840s
 
-Question: Where did the president appoint cabinet members from?
-Answer: both PNU and ODM camps
-Our Answer: Odinga
+Question: When did the Ottoman Empire fall?
+Answer: 1923
+Our Answer: the 16th and 17th centuries
 
-Question: Where was the signing held?
-Answer: the steps of Nairobi's Harambee House
-Our Answer: Africa
+Question: When was the congregation at St. George's founded?
+Answer: 1767
+Our Answer: 1784
 
-Question: Where is the largest number of tourist coming from?
-Answer: Germany and the United Kingdom
-Our Answer: numerous Shopping Malls Kenya Kenya
+Question: When did the UMC's General Board of Church and Society call on all United Methodists to abstain from alcohol for Lent?
+Answer: 2011 and 2012
+Our Answer: 2011 2012
 
-Question: Where is the most successful agricultural prodcution regions?
-Answer: the fertile highlands
-Our Answer: Africa
-
-Question: Where does the livestock of the country normally dominate?
-Answer: the semi-arid savanna to the north and east
-Our Answer: Africa
-
-Question: Where does the largest part of Kenya's power come from?
-Answer: hydroelectric stations at dams
-Our Answer: the upper Tana River the Turkwel Gorge Dam
-
-Question: Where are these dams located?
-Answer: Tana River, as well as the Turkwel Gorge Dam
-Our Answer: Kenya
-
-Question: Where does Kenya have deposits of oil?
-Answer: in Turkana
-Our Answer: Kenya Turkana
-
-Question: Where did the first shipment of minerals ship from?
-Answer: Base Titanium, a subsidiary of Base resources of Australia
-Our Answer: Australia China
-
-Question: Where are most working children working?
-Answer: in agriculture
-Our Answer: Kenya
-
-Question: Where is English spoken the most?
-Answer: in commerce, schooling and government
-Our Answer: Kikuyu
-
-Question: Where is British English usually used?
-Answer: in the country
-Our Answer: Kikuyu
-
-Question: Where is the only Jewish synagogue located?
-Answer: Nairobi
-Our Answer: Kenya
-
-Question: Where do IPCC reports get their information?
-Answer: available information about climate change based on published sources
-Our Answer: of sufficient quality
-
-Question: Where did Singer hold a press conference in May 2000?
-Answer: Capitol Hill, Washington, D.C.
-Our Answer: Washington D.C.
-
-Question: Where was the Feb 2010 call for change published?
-Answer: the journal Nature
-Our Answer: for changes to the IPCC
-
-Question: Where do cryptophyte chloroplasts store starch?
-Answer: in granules found in the periplastid space
+Question: When did John Wesley provide a revised version of The Book of Common Prayer?
+Answer: When the Methodists in America were separated from the Church of England
 Our Answer: No_Answer_Found
 
-Question: Where do Apicomplexans store energy?
-Answer: in amylopectin starch granules that are located in their cytoplasm
-Our Answer: Like the helicosproidia
-
-Question: Where is Peridinin found?
-Answer: peridinin-type chloroplast
-Our Answer: No_Answer_Found
-
-Question: Where did Dinophysis get its chloroplasts from?
-Answer: a cryptophyte
-Our Answer: No_Answer_Found
-
-Question: Where does the diatom endosymbiont store starch?
-Answer: granules in the dinophyte host's cytoplasm
-Our Answer: Kryptoperidinium
-
-Question: Where do nucleomorph genes transfer to?
-Answer: the dinophyte nucleus
-Our Answer: No_Answer_Found
-
-Question: Where did most chloroplasts come from?
-Answer: first set of endosymbiotic events
-Our Answer: the chromatophore
-
-Question: Where does the secondary theory say most genes are kept?
-Answer: in branched, linear, or other complex structures
-Our Answer: No_Answer_Found
-
-Question: Where is the chloroplast polypeptide synthesized?
-Answer: in the cytosol
-Our Answer: No_Answer_Found
-
-Question: Where is the chloroplast peripheral reticulum usually found?
-Answer: in the chloroplasts of C4 plants
-Our Answer: No_Answer_Found
-
-Question: Where is the chloroplast peripheral reticulum less commonly found?
-Answer: in some C3 angiosperms, and even some gymnosperms
-Our Answer: No_Answer_Found
-
-Question: Where do transport vesicles move between?
-Answer: the thylakoids and intermembrane space
-Our Answer: No_Answer_Found
-
-Question: Where are pyrenoids found?
-Answer: The chloroplasts of some hornworts and algae
-Our Answer: No_Answer_Found
-
-Question: Where can chloroplasts sometimes be found?
-Answer: collenchyma tissue
-Our Answer: No_Answer_Found
-
-Question: Where do cacti have chloroplasts?
-Answer: in the stems
-Our Answer: No_Answer_Found
-
-Question: Where do most plants have chloroplasts?
-Answer: concentrated in the leaves
-Our Answer: No_Answer_Found
-
-Question: Where do chloroplasts pump hydrogen?
-Answer: into the thylakoid space
-Our Answer: from the flowing hydrogen ions
-
-Question: Where is cyclic photophosphorylation common?
-Answer: in C4 plants
-Our Answer: No_Answer_Found
-
-Question: Where are Proplastids usually found?
-Answer: in an adult plant's apical meristems
-Our Answer: No_Answer_Found
-
-Question: Where is the Z-ring?
-Answer: within the chloroplast's stroma
-Our Answer: No_Answer_Found
-
-Question: Where do cicadas spend the majority of their lives?
-Answer: as grubs underground
-Our Answer: No_Answer_Found
-
-Question: Where does the Rhine begin? 
-Answer: Swiss canton
-Our Answer: Rhine Cologne Germany
-
-Question: Where does the Rhine empty?
-Answer: North Sea
-Our Answer: Rhine Cologne Germany
-
-Question: Where is the Rhine? 
-Answer: Europe
-Our Answer: Rhine Cologne Germany
-
-Question: Where does the name Rhine derive from? 
-Answer: Gaulish name Rēnos
-Our Answer: the Rhine
-
-Question: Where does the Rhine river's measurement begin?
-Answer: Old Rhine Bridge at Constance
-Our Answer: the Rhine the Alpine Rhine
-
-Question: Where does the Rhine river's measurement end?
-Answer: Hoek van Holland
-Our Answer: the Rhine the Alpine Rhine
-
-Question: Where does the Rhine begin? 
-Answer: Old Rhine Bridge at Constance
-Our Answer: the Rhine the Alpine Rhine
-
-Question: Where does the Rhine end?
-Answer: Hoek van Holland
-Our Answer: the Rhine the Alpine Rhine
-
-Question: Where is the upper canal regulation of the Rhine?
-Answer: Diepoldsau
-Our Answer: the canalized Rhine
-
-Question: Where was the Rhine regulated with a lower canal?
-Answer: Fußach
-Our Answer: the canalized Rhine
-
-Question: Where was the Rhine regulated with an upper canal?
-Answer: Diepoldsau
-Our Answer: the canalized Rhine
-
-Question: Where is the border of Swiss and Austria?
-Answer: 47°39′N 9°19′E﻿ / ﻿47.650°N 9.317°E﻿ / 47.650; 9.317.
-Our Answer: Vorarlberg
-
-Question: Where does the cold and warm water meet the warm water?
-Answer: Rheinbrech
-Our Answer: Upper Lake
-
-Question: Where does the cold water mix with Lake Constance?
-Answer: Rheinbrech
-Our Answer: Upper Lake
-
-Question: Where is the highest point of the Rhine basin?
-Answer: Finsteraarhorn
-Our Answer: the Hochrhein
-
-Question: Where is the so-called Rhine Knee?
-Answer: Basel
-Our Answer: the Hochrhein
-
-Question: Where does the Rhine encounter it's tributary the Neckar? 
-Answer: Germany
-Our Answer: The Rhine the Neckar Moselle
-
-Question: Where is the famous rock the Rhine flows around?
-Answer: Sankt Goarshausen
-Our Answer: the Rhine
-
-Question: Where does two thirds of the Rhine flow outside of Germany?
-Answer: Waal
-Our Answer: the Rhine
-
-Question: Where does the Lek join? 
-Answer: Noord River
-Our Answer: into the IJsselmeer ( a former bay )
-
-Question: Where does the Nederrijn change it's name?
-Answer: Wijk bij Duurstede
-Our Answer: the Noord River the Nieuwe Maas the North Sea
-
-Question: Where does the Delta in the Netherlands begin?
-Answer: Millingen aan de Rijn,
-Our Answer: the Netherlands the Rhine Waal Nederrijn
-
-Question: Where did the Meuse flow before the flood? 
-Answer: Merwede-Oude Maas
-Our Answer: the Meuse the North Sea
-
-Question: Where did the discharge from glaciers go in Europe in the last Ice Age?
-Answer: Rhine
-Our Answer: Europe
-
-Question: Where did the Rhine occupy during the Holocene?
-Answer: Late-Glacial valley
-Our Answer: the Rhine
-
-Question: Where does the Ijssel branch flow?
-Answer: IJsselmeer
-Our Answer: the North Sea the former Meuse estuary Rotterdam
-
-Question: Where are the upper Rhine and upper Danube crossed?
-Answer: southern
-Our Answer: The upper Rhine
-
-Question: Where is the Rhine Bridge?
-Answer: Arnhem
-Our Answer: the Rhine Germany the Western Allies
-
-Question: Where has the official home of the Scottish Parliament been since 2004?
-Answer: Scottish Parliament Building
-Our Answer: Edinburgh
-
-Question: Where was Parliament's temporary home whilst the permanent building was being built?
-Answer: General Assembly Hall of the Church of Scotland
-Our Answer: the Royal Mile Edinburgh
-
-Question: Where were interviews held while the parliament was in its temporary building?
-Answer: courtyard
-Our Answer: the Royal Mile Edinburgh
-
-Question: Where was Parliament temporarily relocated to in May of 2000?
-Answer: former Strathclyde Regional Council debating chamber in Glasgow
-Our Answer: the Royal Mile Edinburgh
-
-Question: Where does the gold in the parliamentary mace come from?
-Answer: Scottish rivers
-Our Answer: No_Answer_Found
-
-Question: Where do plenary meetings take place?
-Answer: debating chamber
-Our Answer: No_Answer_Found
-
-Question: Where is much of the work of the Scottish Parliament done?
-Answer: committee
-Our Answer: Scotland
-
-Question: Where are reserved matters stated in the Scotland Act?
-Answer: Schedule 5
-Our Answer: Scotland
-
-Question: Where are issues like abortion and drug policy legislated on?
-Answer: Westminster
-Our Answer: Europe
-
-Question: Where are bills typically gestated in Stage 1?
-Answer: in the relevant committee or committees
-Our Answer: No_Answer_Found
-
-Question: Where did Maududi exert the most impact?
-Answer: through his writing
-Our Answer: India Britain Pakistan
-
-Question: Where did Maududi's books place Islam?
-Answer: in a modern context
-Our Answer: India Britain Pakistan
-
-Question: Where did Maududi exert the most impact?
-Answer: through his writing
-Our Answer: India Britain Pakistan
-
-Question: Where did Maududi's books place Islam?
-Answer: a modern context
-Our Answer: India Britain Pakistan
-
-Question: Where was the Muslim Brotherhood founded?
-Answer: Ismailiyah, Egypt
-Our Answer: mosques
-
-Question: Where does Khomeini's beliefs fall as compared to Mawdudi and Qutb?
-Answer: somewhere between
-Our Answer: the West
-
-Question: Where did American troops remain stationed after Saddam's defeat?
-Answer: in the kingdom
-Our Answer: Saudi Arabia
-
-Question: Where did a bloody civil war break out?
-Answer: Algeria
-Our Answer: Saudi Arabia
-
-Question: Where did Turabi place students sympathetic to his views?
-Answer: university and military academy
-Our Answer: Sudan
-
-Question: Where did HT fail to pull off a bloodless coup in 1974?
-Answer: Egypt
-Our Answer: Jordan
-
-Question: Where did France focus its efforts to rebuild its empire?
-Answer: Africa
-Our Answer: Germany
-
-Question: Where did Charles de Gaulle and the Free French run operations during World War 2?
-Answer: overseas colonies
-Our Answer: Vietnam
-
-Question: Where did France win a war in the 1950's
-Answer: Algeria
-Our Answer: Vietnam
-
-Question: Where were the Germanic tribes originally located?
-Answer: Scandinavia
-Our Answer: the Holy Roman Empire
-
-Question: Where did the movement that would become The United Methodist Church begin?
-Answer: within the Church of England
-Our Answer: on the Oxford University campus
-
-Question: Where did two leaders join hands and "give birth" to a new denomination?
-Answer: constituting General Conference in Dallas, Texas
-Our Answer: Dallas Texas
-
-Question: Where is the George W. Bush Presidential library?
-Answer: Southern Methodist University
-Our Answer: Dallas Texas
-
-Question: Where does The Council meet?
-Answer: various locations throughout the world
-Our Answer: No_Answer_Found
-
-Question: Where was war fought?
-Answer: primarily along the frontiers between New France and the British colonies
-Our Answer: the French Fort Duquesne present-day Pittsburgh Pennsylvania
-
-Question: Where was France concentraing efforts?
-Answer: against Prussia and its allies in the European theatre of the war.
-Our Answer: Sainte Foy ultimately Quebec Canada
-
-Question: Where were British defeated in Canada?
-Answer: Sainte Foy in Quebec
-Our Answer: ultimately Quebec
-
-Question: Where were French North Americans settled?
-Answer: heavily concentrated along the St. Lawrence River valley, with some also in Acadia
-Our Answer: present-day New Brunswick Nova Scotia
-
-Question: Where did French fur trappers travel?
-Answer: St. Lawrence and Mississippi watersheds, did business with local tribes, and often married Indian women
-Our Answer: present-day New Brunswick Nova Scotia
-
-Question: Where did British settlers live?
-Answer: from Nova Scotia and Newfoundland in the north, to Georgia in the south
-Our Answer: Nova Scotia Georgia
-
-Question: Where were populations centered in colonies?
-Answer: along the coast, the settlements were growing into the interior
-Our Answer: Nova Scotia Georgia
-
-Question: Where did Old Briton call home?
-Answer: village of Pickawillany
-Our Answer: Montreal
-
-Question: Where did Marin build first fort?
-Answer: Fort Presque Isle (near present-day Erie, Pennsylvania
-Our Answer: Marin Marin Fort Presque Isle present-day Erie Pennsylvania Marin Fort Le Boeuf (present-day Waterford Pennsylvania
-
-Question: Where was Marin's second fort constructed?
-Answer: Fort Le Boeuf (present-day Waterford, Pennsylvania
-Our Answer: Marin Marin Fort Presque Isle present-day Erie Pennsylvania Marin Fort Le Boeuf (present-day Waterford Pennsylvania
-
-Question: Where was Shirey going to be when Fort Oswego was to be attacked?
-Answer: planned to attack Fort Niagara
-Our Answer: Fort Oswego
-
-Question: Where was Shirley planning an expedition?
-Answer: through the wilderness of the Maine district and down the Chaudière River to attack the city of Quebec
-Our Answer: Niagara Crown Point Duquesne Fort Frontenac Lake Ontario the Chaudière River
-
-Question: Where did Montcalm move his heaquarter to show strategic advancement?
-Answer: Ticonderoga
-Our Answer: Oswego
-
-Question: Where did Moncalm slip away to attack, left largely unprotected?
-Answer: Oswego
-Our Answer: Albany
-
-Question: Where was Montcalm focusing the defense for New France?
-Answer: St. Lawrence, with primary defenses at Carillon, Quebec, and Louisbourg,
-Our Answer: Quebec Louisbourg
-
-Question: Where did British resettle many Acadians?
-Answer: throughout its North American provinces
-Our Answer: Britain French Canada
-
-Question: Where did many Spanish Catholic move after British takeover in Florida?
-Answer: Most went to Cuba,
-Our Answer: Spanish Florida the Creek
-
-Question: Where did Aristotle believe the natural place for earth and water elements?
-Answer: on the ground
-Our Answer: Earth
-
-Question: Where will a canonball dropped from the crow's nest of a ship land according to Aristotle?
-Answer: behind the foot of the mast
-Our Answer: For example
-
-Question: Where does a canonball dropped from the crow's nest of a ship actually land?
-Answer: foot of the mast
-Our Answer: For example
-
-Question: Where was the measurment for the standard gravity on Earth taken?
-Answer: sea level
-Our Answer: the Earth
-
-Question: Where does centripetal force go?
-Answer: toward the center of the curving path
-Our Answer: to the velocity vector associated with the motion of an object
+Question: When was the French and Indian War?
+Answer: 1754–1763
+Our Answer: 1754 the worldwide Seven Years' War
+
+Question: When did French learn about Braddock's plans?
+Answer: plans leaked to France well before Braddock's departure
+Our Answer: several months
 

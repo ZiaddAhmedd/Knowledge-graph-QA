@@ -4,6 +4,7 @@ import knowledgeGraph as KG
 import preprocess as pp
 import questionAnswering as QA
 import spacy
+import pandas as pd
 
 class RagNRollQA:
     def __init__(self):
@@ -27,17 +28,23 @@ class RagNRollQA:
         contextSentences, questionNlp, questionType = self.pp.process_question_context(question, context)
         
         questionDF = self.kg.extract_facts(question)
-        if len(questionDF) == 1:
-            questionDF["Subject"] = questionNlp.text
-            questionDF["Relation"] = questionNlp.text
-            questionDF["Objects"] = questionNlp.text
-            questionDF["States"] = questionNlp.text
-            questionDF["Times"] = questionNlp.text
-            questionDF["Locations"] = questionNlp.text
-            
+        # if len(questionDF) == 1:
+        #     print("No facts found in the question")
+        #     questionDF["Subject"] = questionNlp.text
+        #     questionDF["Relation"] = questionNlp.text
+        #     questionDF["Objects"] = questionNlp.text
+        #     questionDF["States"] = questionNlp.text
+        #     questionDF["Times"] = questionNlp.text
+        #     questionDF["Locations"] = questionNlp.text
+        
         factsDF = self.kg.join_sentences_facts(contextSentences)
         newFactsDF = self.qa.change_subject_relation(factsDF, False)
         newQuestionDF = self.qa.change_subject_relation(questionDF, False)
+        if len(newQuestionDF) == 0:
+            print("No facts found in the question")
+            new_row = pd.DataFrame([{"Subject": questionNlp.text, "Relation": questionNlp.text, "Objects": questionNlp.text, "States": [questionNlp.text], "Times": [questionNlp.text], "Locations": [questionNlp.text]}])
+            newQuestionDF = pd.concat([newQuestionDF, new_row], ignore_index=True)
+            
     
         answer = self.qa.get_answer(newFactsDF, newQuestionDF, questionType)
         return answer

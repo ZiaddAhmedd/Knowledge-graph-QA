@@ -78,7 +78,7 @@ class QuestionAnswering:
         for factIdx, factRow in factsDf.iterrows():
             currCost = 0
             for _, questionRow in questionFact.iterrows():
-                if len(factRow[excludeColumns[0]]) == 0:
+                if len(factRow[excludeColumns[0]]) == 0 or factRow[excludeColumns[0]] == ["Unknown"]:
                     continue
                 for column in columnNames:
                     currCost += self.similarity(factRow, questionRow, column)
@@ -86,7 +86,30 @@ class QuestionAnswering:
                 cost = currCost
                 maxFactIdx = factIdx
         return maxFactIdx, cost
-        
+    
+    def cost_functionWhere(self, factsDf, questionFact, excludeColumns=[]):
+        cost = 0
+        maxFactIdx = 0
+        columnNames = ["Subject","Relation", "Objects", "States", "Times", "Locations"]
+        for column in excludeColumns:
+            columnNames.remove(column)
+        for factIdx, factRow in factsDf.iterrows():
+            currCost = 0
+            for _, questionRow in questionFact.iterrows():
+                isExcluded = False
+                if len(factRow[excludeColumns[0]]) == 0:
+                    if len(factRow["States"]) == 0:
+                        continue
+                    isExcluded = True
+                for column in columnNames:
+                    if isExcluded and column == "States":
+                        continue
+                    currCost += self.similarity(factRow, questionRow, column)
+            if currCost > cost:
+                cost = currCost
+                maxFactIdx = factIdx
+        return maxFactIdx, cost
+         
     def get_answer(self, factsDF, questionDF, questionType):
         """
         This function determines the answer to a question based on the facts extracted from a document.
@@ -107,7 +130,10 @@ class QuestionAnswering:
         5. It joins the items in the answer into a string.
         6. Finally, it returns the answer.
         """
-        correctIdx, _ = self.cost_function(factsDF, questionDF, excludeColumns=[self.excludesPerQuestionType[questionType]])
+        if questionType == "where":
+            correctIdx, _ = self.cost_functionWhere(factsDF, questionDF, excludeColumns=[self.excludesPerQuestionType[questionType]])
+        else:
+            correctIdx, _ = self.cost_function(factsDF, questionDF, excludeColumns=[self.excludesPerQuestionType[questionType]])
         answer = factsDF.loc[correctIdx, self.excludesPerQuestionType[questionType]]
         if answer == []:
             answer = factsDF.loc[correctIdx, "States"]    
