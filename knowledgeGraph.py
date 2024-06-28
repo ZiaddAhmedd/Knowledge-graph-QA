@@ -48,13 +48,13 @@ class KnowledgeGraph:
                 if not subjectFlag:  # didn't find a normal subject
                     if token.dep_ in ("relcl" , "acl"):
                         subject = str(token.head)
-                        subjects[token] = (subject, verbIdx)  # should get the subtree of the subject
+                        subjects[token] = (subject, verbIdx)
                     elif token.dep_ in ("advcl", "conj"):
                         verb = token.head
                         if verb in subjects:
                             subjects[token] = (subjects[verb][0], verbIdx)
                         else:
-                            subjects[token] = ("Unknown", verbIdx)  # replace "Unknown" with a suitable default
+                            subjects[token] = ("Unknown", verbIdx)
                     elif token.dep_ == "xcomp":
                         verb = token.head
                         if verb in subjects:
@@ -222,7 +222,7 @@ class KnowledgeGraph:
         The function works as follows:
         1. It uses the spaCy NLP library to parse the sentence.
         2. It calls helper functions to extract states, subjects, objects, times, and locations from the sentence.
-        3. It creates a new DataFrame to store the facts.
+        3. It creates a new DataFrame to store the facts.   
         4. It iterates over each subject. If the subject and verb are not already in the DataFrame, it adds a new row for them.
         5. It calls the update_facts function to add the objects, states, times, and locations to the appropriate rows in the DataFrame.
         6. It drops the 'verbIdx' column from the DataFrame, as it is no longer needed.
@@ -237,7 +237,7 @@ class KnowledgeGraph:
         
         facts = pd.DataFrame(columns=["Subject", "Relation", "verbIdx", "Objects", "States", "Times", "Locations"])
         
-        for subject in subjects: #(Aly, is, 1), (Ziad,is, 2) 
+        for subject in subjects:
             currentSubject = subject[0]
             verb = subject[1].lemma_
             verbIdx = subject[2]

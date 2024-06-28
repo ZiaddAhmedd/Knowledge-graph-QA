@@ -42,6 +42,21 @@ class preprocess:
             final_doc.append(str(item))
         return " ".join(final_doc)
     
+    def resolve_pronoun_coreferences(self, text):
+        doc = self.nlp(text)
+        last_subject = ""
+        words = []
+        for token in doc:
+            if token.dep_ == "nsubj":
+                if token.text in ["who", "which"]:
+                    words.append(last_subject)
+                else:
+                    last_subject = token.text
+                    words.append(token.text)
+            else:
+                words.append(token.text)
+        return " ".join(words)
+    
     def preprocess_context(self, doc):
         """
         This function preprocesses the context by resolving coreferences and cleaning the text.
@@ -64,6 +79,7 @@ class preprocess:
         text.replace(".", ",")
         resolved_text = self.resolve_coreference(text)
         resolved_text = resolved_text.strip()
+        resolved_text = self.resolve_pronoun_coreferences(resolved_text)
         resolved_text = resolved_text.replace("  ", " ").replace(" ,", ",").replace(" .", ".").replace("\n", "")
         return resolved_text
     

@@ -28,15 +28,6 @@ class RagNRollQA:
         contextSentences, questionNlp, questionType = self.pp.process_question_context(question, context)
         
         questionDF = self.kg.extract_facts(question)
-        # if len(questionDF) == 1:
-        #     print("No facts found in the question")
-        #     questionDF["Subject"] = questionNlp.text
-        #     questionDF["Relation"] = questionNlp.text
-        #     questionDF["Objects"] = questionNlp.text
-        #     questionDF["States"] = questionNlp.text
-        #     questionDF["Times"] = questionNlp.text
-        #     questionDF["Locations"] = questionNlp.text
-        
         factsDF = self.kg.join_sentences_facts(contextSentences)
         newFactsDF = self.qa.change_subject_relation(factsDF, False)
         newQuestionDF = self.qa.change_subject_relation(questionDF, False)
